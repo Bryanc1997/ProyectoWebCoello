@@ -36,13 +36,13 @@ export class LoginComponent {
 
         // Redirigir según el tipo de usuario
         switch (response.TipoUsuario) {
-          case 'Admin':
+          case 'Administrador':
             this.router.navigate(['/admin-dashboard']);
             break;
-          case 'Usuario':
-            this.router.navigate(['/user-dashboard']);
+          case 'Estudiante':
+            this.router.navigate(['/student-process']);
             break;
-          case 'Cliente':
+          case 'Secretaria':
             this.router.navigate(['/client-dashboard']);
             break;
           default:
