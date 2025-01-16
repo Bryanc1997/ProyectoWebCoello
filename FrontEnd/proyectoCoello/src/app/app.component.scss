@@ -1,20 +1,24 @@
 ion-app {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; /* Asegura que el contenido ocupe toda la pantalla */
-  }
-  
-  ion-router-outlet {
-    flex: 1; /* Hace que el contenido ocupe el espacio disponible entre header y footer */
-    margin-top: 56px; /* Altura del header */
-    margin-bottom: 56px; /* Altura del footer */
-  }
-  
-  .hidden-header ion-router-outlet {
-    margin-top: 0; /* Elimina el margen si el header no está visible */
-  }
-  
-  .hidden-footer ion-router-outlet {
-    margin-bottom: 0; /* Elimina el margen si el footer no está visible */
-  }
-  
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Asegura que el contenido ocupe toda la pantalla */
+}
+
+ion-content {
+  margin-top: 56px; /* Altura del header */
+  margin-bottom: 56px; /* Altura del footer */
+}
+
+ion-router-outlet {
+  flex: 1; /* Hace que el contenido ocupe el espacio disponible entre header y footer */
+  margin-top: 56px; /* Altura del header */
+  margin-bottom: 56px; /* Altura del footer */
+}
+
+.hidden-header ion-router-outlet {
+  margin-top: 0; /* Elimina el margen si el header no está visible */
+}
+
+.hidden-footer ion-router-outlet {
+  margin-bottom: 0; /* Elimina el margen si el footer no está visible */
+}
