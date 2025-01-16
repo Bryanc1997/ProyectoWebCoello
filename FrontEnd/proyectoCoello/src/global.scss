@@ -35,3 +35,15 @@
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import "@ionic/angular/css/palettes/dark.system.css";
+
+ion-content {
+    margin-top: 56px; /* Altura del header */
+  }
+  
+  :root {
+    --ion-background-color: #f9f9f9; /* Fondo general gris claro */
+    --ion-text-color: #333333; /* Texto gris oscuro */
+    --ion-toolbar-background: #f4f4f4; /* Fondo de las toolbars */
+    --ion-toolbar-border-color: #d1d1d1; /* Bordes de las toolbars */
+  }
+  

@@ -6,17 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 @NgModule({
-  declarations: [
-    AppComponent, // Declaraciones principales
-  ],
   imports: [
-    BrowserModule, // Módulo base para navegadores
-    IonicModule.forRoot(), // Configuración principal de Ionic
-    AppRoutingModule, // Configuración de rutas
-    FormsModule, // Para formularios simples
-    ReactiveFormsModule, // Para formularios reactivos (si los usas)
+    BrowserModule,
+    IonicModule.forRoot(),
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent], // Componente principal
+  bootstrap: [],
 })
 export class AppModule {}

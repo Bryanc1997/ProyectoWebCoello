@@ -1,0 +1,33 @@
+ion-header {
+    position: fixed; /* Fija el header en la parte superior */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Asegura que el header esté siempre encima */
+  }
+  
+  ion-toolbar {
+    height: 56px; /* Altura estándar de Ionic */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    background-color: #333333; /* Cambia el color según tu diseño */
+    color: #ffffff;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 40px;
+    width: auto;
+  }
+  
+  .header-buttons ion-button {
+    margin-left: 10px;
+  }
+  
