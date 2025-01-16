@@ -1,0 +1,48 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: #ffffff; /* Fondo blanco */
+}
+
+.login-wrapper {
+  text-align: center;
+}
+
+.login-logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.login-card {
+  width: 90%;
+  max-width: 400px;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  background: #f9f9f9; /* Fondo del card en un tono claro */
+}
+
+ion-card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333333; /* Texto oscuro */
+}
+
+ion-label {
+  font-size: 1.1rem;
+  color: #333333; /* Etiquetas oscuras */
+}
+
+ion-input {
+  font-size: 1rem;
+}
+
+ion-button {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  --background: #007bff; /* Azul brillante para el botón */
+  --background-hover: #0056b3; /* Azul más oscuro al pasar el cursor */
+}
